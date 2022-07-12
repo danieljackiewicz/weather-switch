@@ -1,7 +1,8 @@
+import { ReactComponent as HeavySvg } from "../../../public/icon-4-5_heavy.svg";
 export const Heavy = () => {
   return (
     <>
-      <img className="icon" src="/icon-4-5_heavy.svg" alt="" />
+      <HeavySvg className="icon" />
       <span className="state">Heavy</span>
     </>
   );

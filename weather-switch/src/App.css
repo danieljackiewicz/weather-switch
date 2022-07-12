@@ -44,17 +44,22 @@
   padding-bottom: 5px;
 }
 .state,
-.state-off {
+.state-off,
+.stateone {
   height: 40px;
   padding-left: 10px;
   font-size: large;
   font-weight: 700;
   color: #ffffff;
 }
-.state {
+.stateone {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  height: 44px;
+}
+.state {
+  
 }
 .icon-off {
   opacity: 50%;

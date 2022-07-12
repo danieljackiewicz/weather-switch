@@ -1,7 +1,8 @@
+import { ReactComponent as LightSvg } from "../../../public/icon-4-5_light.svg";
 export const Light = () => {
   return (
     <>
-      <img className="icon" src="/icon-4-5_light.svg" alt="" />
+      <LightSvg className="icon" />
       <span className="state">Light</span>
     </>
   );
