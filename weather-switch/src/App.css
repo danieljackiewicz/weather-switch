@@ -1,3 +1,67 @@
-.App {
-  text-align: center;
+.app {
+  height: 350px;
+  width: 600px;
+  background-color: #537cb0;
+  padding: 30px;
+}
+.wrapper {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.main-slider {
+  padding: 30px;
+}
+.switches {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+}
+.MuiSlider-thumb {
+  border: 3px solid #ffffff;
+}
+.button {
+  background-color: #3a63a1;
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon,
+.icon-off {
+  margin-top: 20px;
+  width: 50%;
+  align-self: center;
+}
+.button-name {
+  font-size: large;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.state,
+.state-off {
+  height: 40px;
+  padding-left: 10px;
+  font-size: large;
+  font-weight: 700;
+  color: #ffffff;
+}
+.state {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.icon-off {
+  opacity: 50%;
+}
+.state-off {
+  opacity: 50%;
+}
+.active-button {
+  border: 1px solid #ffffff;
 }
